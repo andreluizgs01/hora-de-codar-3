@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabuadas de 1 a N</title>
+</head>
+<body>
+    <h1>Tabuadas de 1 a N</h1>
+    
+    <script>
+        var N = parseInt(prompt("Informe o valor de N:"));
+
+        for (var i = 1; i <= N; i++) {
+            document.write("<h2>Tabuada do " + i + "</h2>");
+            
+            for (var j = 1; j <= 10; j++) {
+                document.write(i + " x " + j + " = " + (i * j) + "<br>");
+            }
+        }
+    </script>
+</body>
+</html>

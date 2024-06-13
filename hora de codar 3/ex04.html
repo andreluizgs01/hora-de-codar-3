@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Média Aritmética</title>
+</head>
+<body>
+    <h1>Média Aritmética dos Números Inteiros de 15 a 100</h1>
+    
+    <script>
+        var inicio = 15;
+        var fim = 100;
+        
+        var soma = 0;
+        var contador = 0;
+
+        for (var i = inicio; i <= fim; i++) {
+            soma += i;
+            contador++;
+        }
+
+        var media = soma / contador;
+
+        document.write("A média aritmética dos números inteiros de " + inicio + " a " + fim + " é: " + media);
+    </script>
+</body>
+</html>
